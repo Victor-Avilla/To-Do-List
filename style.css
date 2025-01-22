@@ -1,5 +1,7 @@
+
 body {
-    
+    font-family: 'work-sans', sans-serif;
+    color: rgb(38, 46, 58);
     height: 100vh;
     background: rgb(82, 29, 29);
     background: linear-gradient(11deg, rgba(82, 29, 29, 1) 0%, rgba(36, 45, 57, 1) 100%);
@@ -16,6 +18,11 @@ main{
     
 }
 img{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+}
+#title{
+    text-align: center;
+    font-size: 60px;
+    height: 30px;
 }
