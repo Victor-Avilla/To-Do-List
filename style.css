@@ -1,28 +1,49 @@
-
 body {
     font-family: 'work-sans', sans-serif;
     color: rgb(38, 46, 58);
     height: 100vh;
     background: rgb(82, 29, 29);
     background: linear-gradient(11deg, rgba(82, 29, 29, 1) 0%, rgba(36, 45, 57, 1) 100%);
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-main{
+main {
     background-color: white;
     height: 50%;
     width: 20%;
-    border-radius:20px;
-    
+    border-radius: 20px;
+
 }
-img{
+
+img {
     width: 60px;
     height: 60px;
 }
-#title{
+
+#title {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    font-size: 60px;
-    height: 30px;
+
+    font-size: 50px;
+    color: rgb(82, 29, 29)
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(33, 48, 72);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer
 }
