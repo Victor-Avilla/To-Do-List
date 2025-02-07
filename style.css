@@ -24,16 +24,17 @@ img {
     width: 50px;
     height: 50px;
     display: flex;
-    flex-flow: column;
+    padding-right: 40px;
 }
 
 #title {
     display: flex;
-    margin-left: 60px;
     font-size: 40px;
     color: rgb(0, 0, 0);
     margin-top: 0%;
-    width: 171px;
+    width: 300px;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 label {
@@ -47,7 +48,8 @@ input {
     height: 26px;
     border-radius: 5px;
     border: solid 1px;
-    width: 500px;
+    width: 300px;
+    margin: 0px 0px 0px 10px;
 }
 #check{
     width: 20px;
