@@ -15,10 +15,20 @@
         <h1 id="title"><img src="./assets/logo.png" alt="logo-icon">Task List</h1>
         <label>
             <input type="text" placeholder="Add a new task">
-            <button>Add</button>
-            <input type="checkbox" id="check">
+            <button onclick="newTask()">Add</button>
+
         </label>
+
+        <ol class="list">
+            <li>
+                <label for="check" class="task">Task 1</label>
+                <input type="checkbox" id="check">
+            </li>
+        </ol>
+
+
     </main>
 </body>
+<script src="./script.js"></script>
 
 </html>
