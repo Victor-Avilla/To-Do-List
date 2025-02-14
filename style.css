@@ -45,9 +45,9 @@ label {
 }
 
 input {
-    
-    height: 26px;
-    border-radius: 5px;
+
+    height: 40px;
+    border-radius: 20px;
     border: solid 1px;
     width: 300px;
     margin: 0px 0px 0px 10px;
@@ -59,11 +59,26 @@ input {
     align-items: start;
     border: solid 1px;
     border-radius: 5px;
-    width: 300px;
+    width: 35vh;
     height: 45px;
     padding: 0px;
-    margin: 10px 0px 0px 10px;
+    margin: 1px 0px 0px 10px;
+    list-style: none;
 }
+
+div {
+
+    overflow-y: scroll;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ol::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+} */
 
 #check {
     width: 30px;
@@ -76,11 +91,12 @@ input {
 button {
     background-color: rgb(33, 48, 72);
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
     border: none;
-    width: 40px;
-    height: 30px;
-    cursor: pointer
+    width: 80px;
+    height: 44px;
+    cursor: pointer;
+    position: absolute;
 }
 
 button:hover {

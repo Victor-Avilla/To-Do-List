@@ -1,15 +1,18 @@
 const inputTask = document.querySelector('input')
-const taskList = document.querySelector('ol')
+const taskList = document.querySelector('div')
 newTask = () => {
 
-    taskList.innerHTML += 
-       ` <ol class="list">
+    taskList.innerHTML +=
+
+        ` <ol class="list">
             <li>
                 <label for="check" class="task">${inputTask.value}</label>
             </li>
             
             <input type="checkbox" id="check">
         </ol>`
+
+
 
     // alert(inputTask.value)
 }
