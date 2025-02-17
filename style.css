@@ -17,14 +17,14 @@ main {
     border-radius: 20px;
     display: flex;
     flex-flow: column;
-
+    align-items: center;
 }
 
 img {
     width: 40px;
     height: 40px;
     display: flex;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 #title {
@@ -35,13 +35,14 @@ img {
     width: 300px;
     justify-content: center;
     padding-top: 10px;
+    padding-right: 30px;
 }
 
 label {
     display: flex;
     justify-content: center;
-    align-items: start;
 
+    justify-content: end;
 }
 
 input {
@@ -49,7 +50,7 @@ input {
     height: 40px;
     border-radius: 20px;
     border: solid 1px;
-    width: 300px;
+    width: 320px;
     margin: 0px 0px 0px 10px;
 }
 
@@ -68,7 +69,7 @@ input {
 
 div {
 
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -78,7 +79,7 @@ div {
 /* ol::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-} */
+    } */
 
 #check {
     width: 30px;
