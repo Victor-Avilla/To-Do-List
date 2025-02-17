@@ -41,7 +41,6 @@ img {
 label {
     display: flex;
     justify-content: center;
-
     justify-content: end;
 }
 
@@ -51,7 +50,6 @@ input {
     border-radius: 20px;
     border: solid 1px;
     width: 320px;
-    margin: 0px 0px 0px 10px;
 }
 
 .list {
