@@ -74,16 +74,12 @@ div {
     align-items: center;
 }
 
-/* ol::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-    } */
 
 #check {
     width: 30px;
     height: 30px;
     display: flex;
-    margin: 5px 10px 0px 250px;
+    align-self: flex-end;
 
 }
 
